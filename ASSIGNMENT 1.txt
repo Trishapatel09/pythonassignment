@@ -1,0 +1,8 @@
+ASSIGNMENT 1
+
+Q1.Write 10 valid identifier names 
+10 valid identifiers are : Name , abc1 , abc_d , _ , _ab , stu_name , stu_sem_year , stu_1 ,   _9lives , lives9
+
+Q2.Write 10 invalid identifier names
+10 valid identifiers are : 11 , 1ab , a+b , for , !name , @student , #class , stu.age , stu-age , %object 
+  
