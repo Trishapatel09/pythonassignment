@@ -1,0 +1,106 @@
+Question
+
+1. What does the print() function do in Python?
+The print() function in Python is used to display the output on the console.
+Ex: print("Hello, World!")
+
+2. How can you find the type of a variable using Python?
+In python using type() function 
+Ex: print(type(10))
+    Output: <class 'int'>
+
+3. What is the purpose of the id() function in Python?
+The id() function gives the unique memory address of an object in Python.
+Ex: a = 5
+print(id(a)) 
+Output:(unique memory address)
+
+4. How do you take user input in Python using a built-in function?
+In python using a built-in input() function we can take input from the user
+Name = input("Enter your name: ")
+
+QUETIONS
+
+# Q1: Convert the decimal number 123 into binary, octal, and hexadecimal formats using Python.
+decimal_number = 123
+print(bin(decimal_number))
+print(oct(decimal_number))
+print(hex(decimal_number))
+
+output
+0b1111011
+0o173
+0x7b
+
+#Q2: Declare a binary number 0b1101 in Python and convert it into its decimal equivalent.
+binary_number = 0b1101
+print(int(binary_number))
+
+output
+13
+
+#Q3: Convert the octal number 0o234 into its decimal and binary representations using Python.
+octal_number = 0o234
+print(int(octal_number))
+print(bin(octal_number))
+
+output
+156
+0b10011100
+
+#Q4: Convert the  to its decimal and binary representations in Python.
+hexadecimal_number = 0x1A3
+print(int(hexadecimal_number))
+print(bin(hexadecimal_number))
+
+output
+419
+0b110100011
+
+#Q5: Add two binary numbers 0b1010 and 0b1101 and display the result in binary format
+bin_num1 = 0b1010
+bin_num2 = 0b1101
+sum_bin = bin_num1 + bin_num2
+print(bin(sum_bin))
+
+output
+0b10111
+
+#Q6: Subtract two octal numbers 0o100 and 0o50 and display the result in octal format using Python.
+oct1 = 0o100
+oct2 = 0o50
+octal_number = oct1+oct2
+print(oct(octal_number))
+
+output
+0o150
+
+#Q7: Convert the decimal number 255 into binary format using Python.
+decimal_number = 255
+print(bin(decimal_number))
+
+output
+0b11111111
+
+#Q8: Convert the binary number 0b111101 to its hexadecimal representation in Python.
+binary_number = 0b111101
+print(hex(binary_number))
+
+output
+0x3d
+
+#Q9: Convert the hexadecimal number 0x7F to its octal equivalent using Python.
+hexadecimal_number = 0x7F
+print(oct(hexadecimal_number))
+
+output
+0o177
+
+#Q10: Add two hexadecimal numbers 0x2A and 0x1F and display the result in hexadecimal format.
+hex1 = 0x2A 
+hex2 = 0x1F
+sum_hex = hex1 + hex2
+print(hex(sum_hex))
+
+output
+0x49
